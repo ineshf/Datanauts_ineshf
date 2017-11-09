@@ -1,13 +1,5 @@
----
-output: html_document
----
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-
-## Analysis data for Nasa Datanauts Program!!
+# Analysis data for Nasa Datanauts Program
 
 ![](src/datanauts.jpg)
 
