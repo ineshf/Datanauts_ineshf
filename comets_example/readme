@@ -1,0 +1,7 @@
+https://near-comets-ineshf.firebaseio.com/
+https://near-comets-ineshf.firebaseio.com/data.json
+
+file:///home/ines/datanauts/tracks/track1/comets.html
+
+var myApiKey = 'AIzaSyA_zDcGB4NGrx4GETSNVc80-fvEn7kHGYo';
+var myProjectId = 'near-comets-ineshf';
