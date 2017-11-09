@@ -1,5 +1,4 @@
 ---
-title: "Menu Datanauts"
 output: html_document
 ---
 
@@ -7,10 +6,25 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+
 ## Analysis data for Nasa Datanauts Program!!
+
+![](src/datanauts.jpg)
+
+
 
 This is the index of the analysis developed within the NASA Datanauts program!
 
 * [Track01](track1/README.md)
 * [Commets Example](comets_example/comets.html)
-* [Fireball analysis](fireballs/readme.html)
+* [Fireball analysis](fireballs/readme.Rmd)
+
+
+And about me!
+
+![](src/me.jpg)https://www.linkedin.com/in/ineshuertas/
+
+And about what I do in Datatons!
+
+![](src/datatons.png) http://www.datatons.com/
+
