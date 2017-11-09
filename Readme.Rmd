@@ -7,10 +7,10 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdowr
+## Analysis data for Nasa Datanauts Program!!
 
 This is the index of the analysis developed within the NASA Datanauts program!
 
-* [Track01](file:track1/README.md)
-* [Commets Example](file:comets_example/comets.html)
-* [Fireball analysis](file:fireballs/readme.html)
+* [Track01](track1/README.md)
+* [Commets Example](comets_example/comets.html)
+* [Fireball analysis](fireballs/readme.html)
