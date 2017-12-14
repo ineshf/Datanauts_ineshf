@@ -3,10 +3,6 @@ title: "Nasa Earth Data Analysis based in Maps"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 ## Data init
 
 The data that we will use is based on images. To be able to use them, we need to obtain a matrix like version of the data, with each pixel representing a point in the world map.
@@ -21,11 +17,11 @@ We are going to check if the Albedo has relation with other images that we have 
 For example, we have this map in jpeg:
 
 
-![](/home/ines/Escritorio/NASA/datos/images/dataAlbedo.jpg)
+![](images/dataAlbedo.jpg)
 
 And we will work with a csv that looks like:
 
-![](/home/ines/Escritorio/NASA/datos/images/texto.png)
+![](images/texto.png)
 
 For this example, we will use the 360x180 matrix data to represent the data (Map with scale 1 degree)
 
@@ -35,19 +31,19 @@ For this example, we will use the 360x180 matrix data to represent the data (Map
 
 If we represent the image as a matrix with the values of the Albedo and OLR for the same period of time we can transform these two-dimensional arrays into linear arrays to compare at each geographical point in a specific point of time the values of Albedo and ORL. Keep in mind that by doing this 2D -> 1D transformation, we are losing locality for the different data point, although we won't need it for our use case.
 
-![](/home/ines/Escritorio/NASA/datos/images/Diagrama1.jpeg)
+![](images/Diagrama1.jpeg)
 
 
 
 After the initial transformation we obtain one array of 64800 values of VarX (Albedo for example) for each map. The next obstacle for data correlation is that we have one map for each month, but since we are doing variable correlation as independent values we will join consecutive months. Once again, we lose some context when doing this transformation, so the resulting data would not be valid for any kind of time-oriented analysis for example.
 
-![](/home/ines/Escritorio/NASA/datos/images/Diagrama2.jpeg)
+![](images/Diagrama2.jpeg)
 
 
 
 On this way we can manipulate the maps in time as variables to correlate. Since the maps are equal, we will be evaluating the same point of the map at the same moment for each of the different variables.
 
-![](/home/ines/Escritorio/NASA/datos/images/Diagrama3.jpeg)
+![](images/Diagrama3.jpeg)
 
 In this way we can try to find correlations between different variables!
 
