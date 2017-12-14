@@ -15,7 +15,7 @@ This is the index of the analysis developed within the NASA Datanauts program!
  Explorations
 
 * [Fireball analysis](fireballs/readme.Rmd)
-
+* NEW!! [Nasa Earth Data Analysis based in Maps](nasa_earth_analysis/analysis.html)
 
 And about me!
 
